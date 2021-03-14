@@ -6,7 +6,7 @@ const navList = document.getElementById('nav-list');
 // Open the nav bar
 const openMenu = () => {
     isOpen = true;
-    navList.style.display = 'flex';
+    navList.style.left = '0';
     navList.style.height = '100%';
     menuIcon.classList.replace('fa-bars', 'fa-times');
 }
@@ -15,7 +15,7 @@ const openMenu = () => {
 // Close the nav menu
 const closeMenu = () => {
     isOpen = false;
-    navList.style.display = 'none';
+    navList.style.left = '-100%';
     navList.style.height = '64px';
     menuIcon.classList.replace('fa-times', 'fa-bars');
 }

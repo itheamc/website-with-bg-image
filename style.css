@@ -162,10 +162,11 @@ body {
 
     /* css styling for the nav list */
     .nav-list {
+        height: 100%;
         position: absolute;
         background-color: #3305d1;
         flex-direction: column;
-        top: 64px;
+        /* top: 64px; */
         z-index: 1;
         left: -100%;
     }
